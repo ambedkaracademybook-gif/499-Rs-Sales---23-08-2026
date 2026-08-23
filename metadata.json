@@ -1,0 +1,6 @@
+{
+  "name": "Ambedkar Academy - TNPSC Prep & Cash Prize Exam",
+  "description": "High-conversion black & gold landing page for Ambedkar Academy TNPSC courses, test series, and ₹1 Lakh Cash Prize Model Exam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
