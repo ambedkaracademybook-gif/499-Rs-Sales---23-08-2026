@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
-import imgClass1 from '../assets/images/sessions/session1.jpg';
-import imgClass2 from '../assets/images/sessions/session2.jpg';
-import imgClass3 from '../assets/images/sessions/session3.jpg';
-import imgClass4 from '../assets/images/sessions/session4.jpg';
+import imgClass1 from '../assets/images/sessions/batch1/image.jpg';
+import imgClass2 from '../assets/images/sessions/batch2/image.jpg';
+import imgClass3 from '../assets/images/sessions/batch3/image.jpg';
+import imgClass4 from '../assets/images/sessions/batch4/image.jpg';
 
 const batches = [
   {
@@ -74,7 +74,7 @@ export const WorkshopsAndBatchesSection: React.FC = () => {
 
   return (
     <>
-      <section id="workshops-batches-section" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
+      <section id="workshops-sessions-section" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
         
         {/* Header Area */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-6">
@@ -137,13 +137,13 @@ export const WorkshopsAndBatchesSection: React.FC = () => {
               
               {/* Un-cropped Image with Zoom Overlay */}
               <div 
-                className="relative bg-black flex-grow cursor-zoom-in"
+                className="relative bg-black w-full h-64 sm:h-80 md:h-96 cursor-zoom-in flex items-center justify-center"
                 onClick={() => setZoomedImage(batch.image)}
               >
                 <img 
                   src={batch.image} 
                   alt={batch.title}
-                  className="w-full h-auto object-contain transition-opacity duration-300 group-hover:opacity-80"
+                  className="max-w-full max-h-full object-contain transition-opacity duration-300 group-hover:opacity-80"
                   loading="lazy"
                 />
                 
