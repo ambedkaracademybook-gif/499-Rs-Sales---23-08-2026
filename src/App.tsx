@@ -6,7 +6,6 @@ import { OfferDetailsSection } from './components/OfferDetailsSection';
 import { ChooseProgrammeSection } from './components/ChooseProgrammeSection';
 import { CashPrizeSection } from './components/CashPrizeSection';
 import { RecognitionMattersSection } from './components/RecognitionMattersSection';
-import { MeetYourSpeakersSection } from './components/MeetYourSpeakersSection';
 import { FounderVisionSection } from './components/FounderVisionSection';
 import { ClassroomAndTestimonialsSection } from './components/ClassroomAndTestimonialsSection';
 import { WhoShouldJoinSection } from './components/WhoShouldJoinSection';
@@ -35,29 +34,32 @@ export default function App() {
       {/* SECTION 1 & 2: TOP HOOK + HERO VIDEO ABOVE THE FOLD */}
       <Section1And2Hero onOpenRegister={handleOpenRegister} />
 
-      {/* SECTION 3: THE PROBLEM */}
+      {/* THE PROBLEM / INTERIM SECTION */}
       <ProblemSection />
 
-      {/* SECTION 4: THE SOLUTION */}
-      <SolutionSection />
-
-      {/* SECTION 5: WHAT YOU GET */}
-      <OfferDetailsSection onOpenRegister={handleOpenRegister} />
-
-      {/* SECTION 5.5: CHOOSE YOUR PROGRAMME (OFFLINE, ONLINE, TEST SERIES) */}
-      <ChooseProgrammeSection onOpenRegister={handleOpenRegister} />
-
-      {/* SECTION 6: CASH PRIZE MODEL EXAM WITH 1 LAKH GRAPHIC */}
-      <CashPrizeSection onOpenRegister={handleOpenRegister} />
+      {/* FOUNDER VISION */}
+      <FounderVisionSection />
 
       {/* SECTION 7: WHY RECOGNITION MATTERS */}
       <RecognitionMattersSection />
 
-      {/* WORKSHOP HOSTS & MEET YOUR SPEAKERS SECTION (5 Mentors + Blueprint Card) */}
-      <MeetYourSpeakersSection onOpenRegister={handleOpenRegister} />
+      {/* SECTION 12: WHAT HAPPENS AFTER YOU JOIN? (ROADMAP) */}
+      <AfterJoinJourneySection />
 
-      {/* SECTION 8: FOUNDER VISION */}
-      <FounderVisionSection />
+      {/* SECTION 6: CASH PRIZE MODEL EXAM WITH 1 LAKH GRAPHIC */}
+      <CashPrizeSection onOpenRegister={handleOpenRegister} />
+
+      {/* SECTION 4: THE SOLUTION (6-STAGE PREPARATION CYCLE) */}
+      <SolutionSection />
+
+      {/* SECTION 5.5: CHOOSE YOUR PROGRAMME (OFFLINE, ONLINE, TEST SERIES) */}
+      <ChooseProgrammeSection onOpenRegister={handleOpenRegister} />
+
+      {/* SECTION 11: TNPSC TARGET */}
+      <ExamTargetsSection />
+
+      {/* SECTION 5: WHAT YOU GET */}
+      <OfferDetailsSection onOpenRegister={handleOpenRegister} />
 
       {/* CLASSROOM SESSIONS WITH STUDENTS & TESTIMONIALS */}
       <ClassroomAndTestimonialsSection onOpenRegister={handleOpenRegister} />
@@ -67,12 +69,6 @@ export default function App() {
 
       {/* SECTION 10: WHAT MAKES THIS DIFFERENT? */}
       <WhatMakesDifferentSection />
-
-      {/* SECTION 11: TNPSC TARGET */}
-      <ExamTargetsSection />
-
-      {/* SECTION 12: WHAT HAPPENS AFTER YOU JOIN? */}
-      <AfterJoinJourneySection />
 
       {/* SECTION 13: TRUST / SOCIAL PROOF */}
       <TrustSocialProofSection />

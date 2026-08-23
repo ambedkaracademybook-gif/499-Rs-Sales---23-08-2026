@@ -66,7 +66,7 @@ export const FinalCTASection: React.FC<Props> = ({ onOpenRegister }) => {
           {/* Huge Join Line & Button */}
           <div className="max-w-xl mx-auto bg-[#111111] p-6 sm:p-8 rounded-2xl border-2 border-[#F5B94C]/50 shadow-[0_0_30px_rgba(245,185,76,0.2)]">
             <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white uppercase mb-6 leading-snug">
-              JOIN AMBEDKAR ACADEMY FOR <span className="gold-gradient-text">₹499</span>
+              JOIN AMBEDKAR ACADEMY FOR <span className="gold-gradient-text">₹99</span>
             </h3>
 
             <button
@@ -74,7 +74,7 @@ export const FinalCTASection: React.FC<Props> = ({ onOpenRegister }) => {
               onClick={onOpenRegister}
               className="btn-gold-cta w-full py-4 sm:py-5 px-8 text-[#0A0D14] text-lg sm:text-xl font-black uppercase tracking-wider cursor-pointer shadow-[0_6px_35px_rgba(245,199,61,0.55)] whitespace-nowrap flex items-center justify-center text-center"
             >
-              JOIN NOW — ₹499
+              JOIN NOW — ₹99
             </button>
           </div>
         </div>

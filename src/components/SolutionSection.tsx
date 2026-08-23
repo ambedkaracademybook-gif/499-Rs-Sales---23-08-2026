@@ -101,7 +101,7 @@ export const SolutionSection: React.FC = () => {
               FINAL OUTCOME • STATE RANK RECOGNITION
             </span>
             <h4 className="text-sm sm:text-base font-black text-white uppercase">
-              Eligible for State Rank Cash Prize Model Exam
+              Eligible for Cash Prize Model Exam
             </h4>
           </div>
         </div>

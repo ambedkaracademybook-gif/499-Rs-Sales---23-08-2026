@@ -18,7 +18,7 @@ export const FooterSection: React.FC = () => {
     terms: {
       title: "Terms & Conditions",
       body: [
-        "1. Enrollment: The ₹499 enrollment provides the participant access to the specified Ambedkar Academy TNPSC preparation resources, model tests, and examination benefits.",
+        "1. Enrollment: The ₹99 enrollment provides the participant access to the specified Ambedkar Academy TNPSC preparation resources, model tests, and examination benefits.",
         "2. Cash Prize Examination: Eligibility, participation rules, test timing, and prize disbursals are strictly governed by the official Cash Prize Model Examination regulations.",
         "3. Verification: Top rank holders will be subject to identity and attendance verification prior to prize disbursement.",
         "4. Intellectual Property: All study materials, tests, and proprietary frameworks belong exclusively to Ambedkar Academy.",
@@ -27,7 +27,7 @@ export const FooterSection: React.FC = () => {
     refund: {
       title: "Refund Policy",
       body: [
-        "1. Commitment: Ambedkar Academy offers an affordable ₹499 digital access entry to facilitate high-quality TNPSC preparation for serious aspirants.",
+        "1. Commitment: Ambedkar Academy offers an affordable ₹99 digital access entry to facilitate high-quality TNPSC preparation for serious aspirants.",
         "2. Policy: As digital access and test resources are provisioned immediately upon enrollment, fees paid are non-refundable once platform access has been granted.",
         "3. Support: If you encounter any technical difficulty accessing your material or test links, our support team will resolve it via email.",
       ],

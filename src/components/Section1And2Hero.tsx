@@ -81,7 +81,7 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
           onClick={onOpenRegister}
           className="btn-gold-cta w-full sm:w-auto min-w-[280px] sm:min-w-[340px] px-8 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-xl whitespace-nowrap"
         >
-          <span>JOIN NOW — ₹499</span>
+          <span>JOIN NOW — ₹99</span>
           <ArrowRight className="w-5 h-5" />
         </button>
 
@@ -90,64 +90,7 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
         </p>
       </div>
 
-      {/* MANDATORY VENUE, DATE & TIME DETAILS CARD DIRECTLY BELOW VIDEO */}
-      <div className="mb-10 bg-gradient-to-br from-[#1A1A1A] to-[#121212] border-2 border-[#F5B94C] rounded-3xl p-6 sm:p-8 shadow-[0_0_40px_rgba(245,185,76,0.15)] relative overflow-hidden text-left">
-        <div className="absolute top-0 right-0 transform translate-x-6 -translate-y-6 w-48 h-48 bg-[#F5B94C]/10 rounded-full blur-2xl pointer-events-none" />
-        
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-6">
-          <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFD66E]/15 border border-[#F5B94C]/40 text-[#FFD66E] text-xs font-black uppercase tracking-wider mb-2">
-              <AlertCircle className="w-4 h-4 text-[#F5B94C] animate-pulse" /> 100% Offline Exam Event — Not Online
-            </div>
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white uppercase tracking-tight">
-              TNPSC 2026 Model Offline Examination
-            </h3>
-            <p className="text-xs sm:text-sm text-[#BDBDBD] mt-1">
-              This complete event is happening strictly offline at designated TNPSC offline venues. Book your physical desk and get your hall ticket.
-            </p>
-          </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 pt-4 border-t border-[#F5B94C]/20">
-          
-          {/* Date Card */}
-          <div className="bg-[#111111] border border-[#F5B94C]/30 rounded-2xl p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#F5B94C]/15 border border-[#F5B94C]/40 flex items-center justify-center shrink-0">
-              <Calendar className="w-6 h-6 text-[#F5B94C]" />
-            </div>
-            <div>
-              <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Exam Date</span>
-              <h4 className="text-base font-extrabold text-white">September 21, 2026</h4>
-              <p className="text-xs text-[#BDBDBD] mt-0.5">Reporting time: 08:30 AM</p>
-            </div>
-          </div>
-
-          {/* Time Card */}
-          <div className="bg-[#111111] border border-[#F5B94C]/30 rounded-2xl p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#F5B94C]/15 border border-[#F5B94C]/40 flex items-center justify-center shrink-0">
-              <Clock className="w-6 h-6 text-[#F5B94C]" />
-            </div>
-            <div>
-              <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Timings</span>
-              <h4 className="text-base font-extrabold text-white">9:00 AM to 1:00 PM</h4>
-              <p className="text-xs text-[#BDBDBD] mt-0.5">Full Model Examination Duration</p>
-            </div>
-          </div>
-
-          {/* Venue Card */}
-          <div className="bg-[#111111] border border-[#F5B94C]/30 rounded-2xl p-5 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-[#F5B94C]/15 border border-[#F5B94C]/40 flex items-center justify-center shrink-0">
-              <MapPin className="w-6 h-6 text-[#F5B94C]" />
-            </div>
-            <div>
-              <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Exam Venue Area</span>
-              <h4 className="text-base font-extrabold text-white">Ambedkar Academy Main Hall</h4>
-              <p className="text-xs text-[#BDBDBD] mt-0.5">T. Nagar, Chennai • District Examination Centers across TN</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
 
     </section>
   );

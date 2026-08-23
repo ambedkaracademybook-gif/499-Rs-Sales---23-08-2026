@@ -25,13 +25,13 @@ export const RegistrationModal: React.FC<Props> = ({ isOpen, onClose }) => {
     if (!formData.name || !formData.phone) return;
 
     // Send formatted WhatsApp notification
-    const msg = `*NEW ₹499 TNPSC ENROLLMENT - AMBEDKAR ACADEMY*\n\n` +
+    const msg = `*NEW ₹99 TNPSC ENROLLMENT - AMBEDKAR ACADEMY*\n\n` +
       `👤 *Name:* ${formData.name}\n` +
       `📱 *WhatsApp:* ${formData.phone}\n` +
       `🎯 *Target Exam:* ${formData.targetExam}\n` +
       `📍 *District:* ${formData.district || 'Tamil Nadu'}\n` +
-      `💰 *Amount:* ₹499 ONLY\n\n` +
-      `_I want to complete my ₹499 enrollment and receive access details._`;
+      `💰 *Amount:* ₹99 ONLY\n\n` +
+      `_I want to complete my ₹99 enrollment and receive access details._`;
 
     const whatsappUrl = `https://wa.me/916369626229?text=${encodeURIComponent(msg)}`;
     
@@ -66,7 +66,7 @@ export const RegistrationModal: React.FC<Props> = ({ isOpen, onClose }) => {
                 TNPSC Preparation Program
               </div>
               <h3 className="text-2xl font-black text-white uppercase tracking-tight">
-                JOIN FOR <span className="gold-gradient-text">₹499 ONLY</span>
+                JOIN FOR <span className="gold-gradient-text">₹99 ONLY</span>
               </h3>
               <p className="text-xs text-[#BDBDBD] mt-1">
                 Enter your details to secure your enrollment & exam eligibility.
@@ -138,7 +138,7 @@ export const RegistrationModal: React.FC<Props> = ({ isOpen, onClose }) => {
               <div className="p-3.5 rounded-xl bg-[#111111] border border-[#F5B94C]/30 flex items-center justify-between">
                 <div>
                   <span className="text-xs text-[#BDBDBD] block">Total Enrollment Fee</span>
-                  <span className="text-xl font-black text-[#FFD66E]">₹499 ONLY</span>
+                  <span className="text-xl font-black text-[#FFD66E]">₹99 ONLY</span>
                 </div>
                 <span className="text-[11px] font-bold text-[#F5B94C] bg-[#F5B94C]/10 px-2.5 py-1 rounded border border-[#F5B94C]/30">
                   Instant Access
@@ -149,7 +149,7 @@ export const RegistrationModal: React.FC<Props> = ({ isOpen, onClose }) => {
                 type="submit"
                 className="btn-gold-cta w-full py-4 text-[#0A0D14] text-base font-black uppercase tracking-wider cursor-pointer shadow-[0_6px_25px_rgba(245,199,61,0.5)] mt-2"
               >
-                CONFIRM & PROCEED — ₹499
+                CONFIRM & PROCEED — ₹99
               </button>
             </form>
 
@@ -183,7 +183,7 @@ export const RegistrationModal: React.FC<Props> = ({ isOpen, onClose }) => {
 
             <div className="flex gap-3">
               <a
-                href={`https://wa.me/916369626229?text=${encodeURIComponent(`Hi Ambedkar Academy, I registered for ₹499. My name is ${formData.name}.`)}`}
+                href={`https://wa.me/916369626229?text=${encodeURIComponent(`Hi Ambedkar Academy, I registered for ₹99. My name is ${formData.name}.`)}`}
                 target="_blank"
                 rel="noreferrer"
                 className="flex-1 py-3 px-4 rounded-xl bg-[#25D366] text-white font-bold text-sm uppercase flex items-center justify-center gap-2 hover:bg-[#20bd5a] transition-colors"

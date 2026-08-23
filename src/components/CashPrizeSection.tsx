@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, Award, Gift, ArrowRight, ShieldCheck, CheckCircle2, Sparkles } from 'lucide-react';
+import { Trophy, Award, Gift, ArrowRight, ShieldCheck, CheckCircle2, Sparkles, Users, Building, Utensils } from 'lucide-react';
 import cashPrizePoster from '../assets/images/cash-prize/cash_prize_poster_2026_1787489072571.jpg';
 
 interface Props {
@@ -33,9 +33,52 @@ export const CashPrizeSection: React.FC<Props> = ({ onOpenRegister }) => {
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight mb-3">
             ₹2,00,000 TOTAL <span className="gold-gradient-text">CASH PRIZE POOL</span>
           </h2>
-          <p className="text-xs sm:text-base text-[#BDBDBD] max-w-2xl mx-auto">
+          <p className="text-xs sm:text-base text-[#BDBDBD] max-w-2xl mx-auto mb-6">
             Experience real TNPSC exam pressure and earn state-level recognition with tangible cash awards.
           </p>
+
+          {/* 4 Key Exam Highlights */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-5xl mx-auto text-left">
+            <div className="bg-[#111111]/90 border border-[#F5B94C]/40 p-3.5 rounded-2xl flex items-start gap-3 shadow-md">
+              <div className="p-2 rounded-xl bg-[#F5B94C]/10 text-[#FFD66E] shrink-0">
+                <Users className="w-4 h-4 text-[#F5B94C]" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-[#F5B94C] uppercase tracking-wider block">Seat Limit</span>
+                <p className="text-xs font-bold text-white leading-snug">Only 1000 Members Are allowed for this Cash prize model Exam</p>
+              </div>
+            </div>
+
+            <div className="bg-[#111111]/90 border border-[#F5B94C]/40 p-3.5 rounded-2xl flex items-start gap-3 shadow-md">
+              <div className="p-2 rounded-xl bg-[#F5B94C]/10 text-[#FFD66E] shrink-0">
+                <Building className="w-4 h-4 text-[#F5B94C]" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-[#F5B94C] uppercase tracking-wider block">Mode</span>
+                <p className="text-xs font-bold text-white leading-snug">Complete OFFLINE model EXAM</p>
+              </div>
+            </div>
+
+            <div className="bg-[#111111]/90 border border-[#F5B94C]/40 p-3.5 rounded-2xl flex items-start gap-3 shadow-md">
+              <div className="p-2 rounded-xl bg-[#F5B94C]/10 text-[#FFD66E] shrink-0">
+                <CheckCircle2 className="w-4 h-4 text-[#F5B94C]" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-[#F5B94C] uppercase tracking-wider block">Evaluation</span>
+                <p className="text-xs font-bold text-white leading-snug">Same Day Live Correction and Same day Result</p>
+              </div>
+            </div>
+
+            <div className="bg-[#111111]/90 border border-[#F5B94C]/40 p-3.5 rounded-2xl flex items-start gap-3 shadow-md">
+              <div className="p-2 rounded-xl bg-[#F5B94C]/10 text-[#FFD66E] shrink-0">
+                <Utensils className="w-4 h-4 text-[#F5B94C]" />
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-[#F5B94C] uppercase tracking-wider block">Hospitality</span>
+                <p className="text-xs font-bold text-white leading-snug">FREE Lunch Provided</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* 2-Column Grid: Poster & Authentic Chamfered Prize Matrix */}
@@ -126,7 +169,7 @@ export const CashPrizeSection: React.FC<Props> = ({ onOpenRegister }) => {
             onClick={onOpenRegister}
             className="btn-gold-cta px-8 sm:px-14 py-4 text-[#0A0D14] text-sm sm:text-base font-black uppercase tracking-wider cursor-pointer inline-flex items-center gap-2 whitespace-nowrap"
           >
-            <span>JOIN NOW — ₹499</span>
+            <span>JOIN NOW — ₹99</span>
             <ArrowRight className="w-4 h-4" />
           </button>
           <p className="text-[11px] text-[#BDBDBD]/70 mt-2">

@@ -27,11 +27,11 @@ export const The499OfferSection: React.FC<Props> = ({ onOpenRegister }) => {
             START YOUR TNPSC JOURNEY FOR
           </p>
 
-          {/* Big ₹499 Price in Metallic Cut Tag */}
+          {/* Big ₹99 Price in Metallic Cut Tag */}
           <div className="mb-6 flex justify-center">
             <div className="gold-badge-cut px-8 sm:px-12 py-3 sm:py-4 shadow-xl">
               <span className="text-4xl sm:text-5xl md:text-6xl font-black text-[#0A0A0A] italic tracking-tight font-display drop-shadow-[0_1px_1px_rgba(255,255,255,0.4)]">
-                ₹499
+                ₹99
               </span>
             </div>
           </div>
@@ -56,7 +56,7 @@ export const The499OfferSection: React.FC<Props> = ({ onOpenRegister }) => {
             onClick={onOpenRegister}
             className="btn-gold-cta w-full sm:w-auto px-14 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer shadow-[0_6px_30px_rgba(245,199,61,0.5)] whitespace-nowrap"
           >
-            JOIN NOW — ₹499
+            JOIN NOW — ₹99
           </button>
 
           <p className="text-xs text-[#BDBDBD]/70 mt-6 max-w-lg mx-auto">

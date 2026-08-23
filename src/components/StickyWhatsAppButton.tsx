@@ -2,7 +2,7 @@ import React from 'react';
 
 export const StickyWhatsAppButton: React.FC = () => {
   const whatsappNumber = "916369626229";
-  const message = "Hi Ambedkar Academy, I’m interested in the ₹499 TNPSC programme. Please share the details.";
+  const message = "Hi Ambedkar Academy, I’m interested in the ₹99 TNPSC programme. Please share the details.";
   const encodedUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (

@@ -10,9 +10,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "OFFLINE PROGRAMME",
       badge: "In-Person Classroom",
-      regAmount: "Registration: ₹499",
+      regAmount: "Registration: ₹99",
       price: "₹2,000 × 6 Weeks",
-      totalCalc: "Total Programme Value: ₹12,499 (₹499 Reg + ₹12,000)",
+      totalCalc: "Total Programme Value: ₹12,099 (₹99 Reg + ₹12,000)",
       desc: "Classroom preparation + guidance + tests",
       features: ["Physical classroom desk in Chennai / Centers", "Direct interaction with senior faculty", "Printed model test papers & OMR evaluation", "Access to Cash Prize Model Exam"],
       popular: true,
@@ -20,9 +20,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "ONLINE PROGRAMME",
       badge: "Live & Recorded",
-      regAmount: "Registration: ₹499",
+      regAmount: "Registration: ₹99",
       price: "₹1,000 × 6 Weeks",
-      totalCalc: "Total Programme Value: ₹6,499 (₹499 Reg + ₹6,000)",
+      totalCalc: "Total Programme Value: ₹6,099 (₹99 Reg + ₹6,000)",
       desc: "Online preparation + guidance + tests",
       features: ["Live interactive masterclasses", "Recorded video library access", "Digital test series & feedback", "Access to Cash Prize Model Exam"],
       popular: false,
@@ -30,11 +30,11 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "TEST SERIES",
       badge: "Exam Practice",
-      regAmount: "Registration: ₹499",
+      regAmount: "Registration: ₹99",
       price: "₹500 × 4 Weeks",
-      totalCalc: "Total Programme Value: ₹2,499 (₹499 Reg + ₹2,000)",
+      totalCalc: "Total Programme Value: ₹2,099 (₹99 Reg + ₹2,000)",
       desc: "Model tests + performance analysis",
-      features: ["Curated TNPSC mock tests", "Detailed performance reports", "Weak area analysis dashboard", "Ranking among state aspirants"],
+      features: ["Curated TNPSC mock tests", "Detailed performance reports", "Weak area analysis dashboard", "Access to Cash Prize Model Exam"],
       popular: false,
     },
   ];
@@ -51,7 +51,7 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
           CHOOSE YOUR <span className="gold-gradient-text">PROGRAMME</span>
         </h2>
         <p className="text-xs sm:text-base text-[#BDBDBD] max-w-xl mx-auto">
-          Standard registration is ₹499. Select your offline or online programme and view total calculated costs.
+          Standard registration is ₹99. Select your offline or online programme and view total calculated costs.
         </p>
       </div>
 
@@ -116,7 +116,7 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
                   : 'bg-[#222222] hover:bg-[#2A2A2A] text-white border border-[#F5B94C]/40 hover:border-[#F5B94C]'
               }`}
             >
-              <span>JOIN {prog.title.split(' ')[0]} — ₹499</span>
+              <span>JOIN {prog.title.split(' ')[0]} — ₹99</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 

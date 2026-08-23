@@ -36,10 +36,10 @@ export const OfferDetailsSection: React.FC<Props> = ({ onOpenRegister }) => {
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white uppercase tracking-tight">
             START YOUR TNPSC PREPARATION<br />
-            <span className="gold-gradient-text">FOR JUST ₹499</span>
+            <span className="gold-gradient-text">FOR JUST ₹99</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-[#BDBDBD] max-w-xl mx-auto">
-            Your ₹499 enrollment gives you access to the advertised programme benefits.
+            Your ₹99 enrollment gives you access to the advertised programme benefits.
           </p>
         </div>
 
@@ -64,10 +64,10 @@ export const OfferDetailsSection: React.FC<Props> = ({ onOpenRegister }) => {
           </div>
         </div>
 
-        {/* Why ₹499 Subsection */}
+        {/* Why ₹99 Subsection */}
         <div className="bg-[#111111] border border-[#F5B94C]/30 rounded-2xl p-6 sm:p-8 text-center max-w-2xl mx-auto">
           <h3 className="text-xl sm:text-2xl font-extrabold text-[#FFD66E] uppercase mb-2">
-            WHY ₹499?
+            WHY ₹99?
           </h3>
           <p className="text-sm sm:text-base text-[#BDBDBD] mb-6 leading-relaxed">
             Because starting your preparation shouldn't require a huge financial commitment.
@@ -91,7 +91,7 @@ export const OfferDetailsSection: React.FC<Props> = ({ onOpenRegister }) => {
             onClick={onOpenRegister}
             className="btn-gold-cta w-full sm:w-auto px-12 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap"
           >
-            <span>JOIN NOW — ₹499</span>
+            <span>JOIN NOW — ₹99</span>
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>

@@ -3,7 +3,7 @@ import { Compass, CheckCircle2, ArrowRight } from 'lucide-react';
 
 export const AfterJoinJourneySection: React.FC = () => {
   const steps = [
-    { step: "01", title: "JOIN FOR ₹499", desc: "Complete your enrollment." },
+    { step: "01", title: "JOIN FOR ₹99", desc: "Complete your enrollment." },
     { step: "02", title: "ACCESS YOUR PROGRAMME", desc: "Start using the available learning and preparation resources." },
     { step: "03", title: "PREPARE", desc: "Follow the structured preparation approach." },
     { step: "04", title: "PRACTICE", desc: "Solve questions and participate in tests." },

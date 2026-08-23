@@ -21,7 +21,7 @@ export const FAQSection: React.FC = () => {
     },
     {
       q: "What is the registration amount?",
-      a: "₹499 (or ₹100 registration depending on programme tier), followed by the applicable weekly payment.",
+      a: "₹99 only, followed by the applicable weekly payment for full programmes.",
     },
     {
       q: "How do I join?",
@@ -55,7 +55,7 @@ export const FAQSection: React.FC = () => {
           FREQUENTLY ASKED QUESTIONS
         </h2>
         <p className="mt-3 text-sm sm:text-base text-[#BDBDBD]">
-          Everything you need to know about the ₹499 enrollment & examination terms.
+          Everything you need to know about the ₹99 enrollment & examination terms.
         </p>
       </div>
 

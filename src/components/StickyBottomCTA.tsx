@@ -35,7 +35,7 @@ export const StickyBottomCTA: React.FC<Props> = ({ onOpenRegister }) => {
           onClick={onOpenRegister}
           className="btn-gold-cta min-h-[44px] sm:min-h-[48px] px-5 sm:px-8 py-2 sm:py-2.5 text-[#0A0D14] text-xs sm:text-base font-black uppercase tracking-wider flex items-center justify-center gap-1.5 sm:gap-2 cursor-pointer shrink-0 whitespace-nowrap"
         >
-          <span>JOIN NOW — ₹499</span>
+          <span>JOIN NOW — ₹99</span>
           <ArrowRight className="w-4 h-4 text-[#0A0D14] shrink-0" />
         </button>
 
