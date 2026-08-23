@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Section1And2Hero } from './components/Section1And2Hero';
 import { ProblemSection } from './components/ProblemSection';
-import { WorkshopsAndBatchesSection } from './components/WorkshopsAndBatchesSection';
 import { SolutionSection } from './components/SolutionSection';
 import { OfferDetailsSection } from './components/OfferDetailsSection';
 import { ChooseProgrammeSection } from './components/ChooseProgrammeSection';
@@ -39,9 +38,6 @@ export default function App() {
 
       {/* THE PROBLEM / INTERIM SECTION */}
       <ProblemSection />
-
-      {/* WORKSHOPS & BATCHES */}
-      <WorkshopsAndBatchesSection />
 
       {/* FOUNDER VISION */}
       <FounderVisionSection />
