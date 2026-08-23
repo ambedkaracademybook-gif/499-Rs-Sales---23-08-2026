@@ -1,9 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X, ZoomIn } from 'lucide-react';
-import imgClass1 from '../assets/images/batches/batch1.jpg';
-import imgClass2 from '../assets/images/batches/batch2.jpg';
-import imgClass3 from '../assets/images/batches/batch3.jpg';
-import imgClass4 from '../assets/images/batches/batch4.jpg';
+import imgClass1 from '../assets/images/sessions/session1.jpg';
+import imgClass2 from '../assets/images/sessions/session2.jpg';
+import imgClass3 from '../assets/images/sessions/session3.jpg';
+import imgClass4 from '../assets/images/sessions/session4.jpg';
 
 const batches = [
   {
