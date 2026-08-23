@@ -44,7 +44,7 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
             src={`https://fast.wistia.net/embed/iframe/b3ubba1b09?autoPlay=true&muted=${isMuted ? 'true' : 'false'}&controlsVisibleOnLoad=false&playbar=false&playButton=false&smallPlayButton=false&wistiaLogo=false&settingsControl=false&fullscreenButton=false&volumeControl=false&qualityControl=false&playbackRateControl=false&endVideoBehavior=loop&plugin%5Bcaptions-v1%5D%5Bon%5D=false&plugin%5Bcaptions-v1%5D%5Bsubtitles%5D=false&plugin%5Bchapters%5D%5Bon%5D=false`}
             title="Ambedkar Academy TNPSC Video Player"
             allow="autoplay; fullscreen"
-            className="w-full h-[calc(100%+36px)] -mt-2 border-0 absolute inset-0 pointer-events-auto"
+            className="w-full h-full border-0 absolute inset-0 pointer-events-auto object-cover"
           />
 
           {/* Interactive Shield / Barrier to prevent distracting third-party popups */}
@@ -71,14 +71,6 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
             </button>
           </div>
 
-          {/* Live Indicator Pill on top-left */}
-          <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-30 pointer-events-none">
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-black/75 backdrop-blur-sm border border-white/20 text-white text-[11px] font-bold uppercase tracking-wider">
-              <span className="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
-              Ambedkar Academy
-            </span>
-          </div>
-
         </div>
       </div>
 
@@ -87,7 +79,7 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
         <button
           id="hero-main-cta"
           onClick={onOpenRegister}
-          className="btn-gold-cta w-full sm:w-auto min-w-[280px] sm:min-w-[340px] px-8 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-xl"
+          className="btn-gold-cta w-full sm:w-auto min-w-[280px] sm:min-w-[340px] px-8 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-xl whitespace-nowrap"
         >
           <span>JOIN NOW — ₹499</span>
           <ArrowRight className="w-5 h-5" />

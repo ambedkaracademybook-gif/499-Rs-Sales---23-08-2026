@@ -54,7 +54,7 @@ export const The499OfferSection: React.FC<Props> = ({ onOpenRegister }) => {
           <button
             id="the-499-offer-cta"
             onClick={onOpenRegister}
-            className="btn-gold-cta w-full sm:w-auto px-14 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer shadow-[0_6px_30px_rgba(245,199,61,0.5)]"
+            className="btn-gold-cta w-full sm:w-auto px-14 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer shadow-[0_6px_30px_rgba(245,199,61,0.5)] whitespace-nowrap"
           >
             JOIN NOW — ₹499
           </button>

@@ -89,7 +89,7 @@ export const OfferDetailsSection: React.FC<Props> = ({ onOpenRegister }) => {
           <button
             id="offer-section-cta"
             onClick={onOpenRegister}
-            className="btn-gold-cta w-full sm:w-auto px-12 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer inline-flex items-center justify-center gap-2"
+            className="btn-gold-cta w-full sm:w-auto px-12 py-4 text-[#0A0D14] text-base sm:text-lg font-black uppercase tracking-wider cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap"
           >
             <span>JOIN NOW — ₹499</span>
             <ArrowRight className="w-5 h-5" />

@@ -25,7 +25,7 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenRegister = () => {
-    setIsModalOpen(true);
+    window.open('https://www.ambedkaracademy.in/courses/648764', '_blank');
   };
 
   return (

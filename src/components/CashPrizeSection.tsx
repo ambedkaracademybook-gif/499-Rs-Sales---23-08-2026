@@ -124,7 +124,7 @@ export const CashPrizeSection: React.FC<Props> = ({ onOpenRegister }) => {
         <div className="text-center pt-2 border-t border-white/10 relative z-10">
           <button
             onClick={onOpenRegister}
-            className="btn-gold-cta px-8 sm:px-14 py-4 text-[#0A0D14] text-sm sm:text-base font-black uppercase tracking-wider cursor-pointer inline-flex items-center gap-2"
+            className="btn-gold-cta px-8 sm:px-14 py-4 text-[#0A0D14] text-sm sm:text-base font-black uppercase tracking-wider cursor-pointer inline-flex items-center gap-2 whitespace-nowrap"
           >
             <span>JOIN NOW — ₹499</span>
             <ArrowRight className="w-4 h-4" />
