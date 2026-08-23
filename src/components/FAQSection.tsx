@@ -4,44 +4,36 @@ import { HelpCircle, ChevronDown } from 'lucide-react';
 export const FAQSection: React.FC = () => {
   const faqs = [
     {
-      q: "1. Who is this programme for?",
-      a: "This programme is designed for aspirants preparing for TNPSC examinations, including Group 1, Group 2, Group 2A and Group 4, depending on the programme coverage.",
+      q: "What is the ₹1,00,000 prize?",
+      a: "It is the 1st Prize of the Cash Prize Model Examination.",
     },
     {
-      q: "2. What is the price?",
-      a: "The current landing-page offer is ₹499.",
+      q: "Is the prize guaranteed?",
+      a: "No. Eligibility and prize distribution are subject to the applicable examination rules.",
     },
     {
-      q: "3. What do I get for ₹499?",
-      a: "You receive access to the benefits specifically included in the advertised programme, including the applicable preparation resources, learning support and examination-related benefits.",
+      q: "Can beginners join?",
+      a: "Yes. The programme is suitable for beginners and existing aspirants.",
     },
     {
-      q: "4. Is the ₹1,00,000 cash prize guaranteed for every student?",
-      a: "No. The ₹1,00,000 amount is the 1st Prize of the Cash Prize Model Examination. Prize eligibility, participation requirements and selection are subject to the applicable examination terms.",
+      q: "Can I join only the Test Series?",
+      a: "Yes. A separate Test Series option is available.",
     },
     {
-      q: "5. Do I have to pay separately for the Cash Prize Model Examination?",
-      a: "Eligible programme participants can participate according to the applicable programme and examination terms. Final eligibility rules and schedules are shared with enrolled students.",
+      q: "What is the registration amount?",
+      a: "₹499 (or ₹100 registration depending on programme tier), followed by the applicable weekly payment.",
     },
     {
-      q: "6. Is this suitable for beginners?",
-      a: "Yes. Beginners can use the structured preparation approach to build their foundation and develop regular study and testing habits.",
+      q: "How do I join?",
+      a: "Select your programme and complete the registration.",
     },
     {
-      q: "7. I am already preparing for TNPSC. Can I join?",
-      a: "Yes. The programme can also be useful for aspirants who already study independently but want more structured practice, testing and performance-focused preparation.",
+      q: "Who is this programme designed for?",
+      a: "Aspirants preparing for TNPSC examinations, including beginners, existing aspirants, repeaters, college students, and working professionals.",
     },
     {
-      q: "8. Is this online or offline?",
-      a: "Your ₹499 enrollment provides access to the programme described on this page. Please check the programme details before completing payment.",
-    },
-    {
-      q: "9. When can I start?",
-      a: "After successful enrollment, you will receive the instructions required to access the programme immediately.",
-    },
-    {
-      q: "10. How can I get support?",
-      a: "For questions about enrollment, programme access or eligibility, contact Ambedkar Academy through WhatsApp at 6369626229.",
+      q: "What do I get upon joining?",
+      a: "Access to structured preparation, regular practice tests, performance analysis, government officer guidance, and eligibility to participate in the Cash Prize Model Examination.",
     },
   ];
 
@@ -103,3 +95,4 @@ export const FAQSection: React.FC = () => {
     </section>
   );
 };
+

@@ -97,13 +97,13 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 mb-6">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFD66E]/15 border border-[#F5B94C]/40 text-[#FFD66E] text-xs font-black uppercase tracking-wider mb-2">
-              <AlertCircle className="w-4 h-4 text-[#F5B94C] animate-pulse" /> Limited Seats Available — Register Now
+              <AlertCircle className="w-4 h-4 text-[#F5B94C] animate-pulse" /> 100% Offline Exam Event — Not Online
             </div>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white uppercase tracking-tight">
-              TNPSC 2026 Model Exam &amp; Seminar <span className="gold-gradient-text">Schedule &amp; Venue</span>
+              TNPSC 2026 Model Offline Examination
             </h3>
             <p className="text-xs sm:text-sm text-[#BDBDBD] mt-1">
-              Strict capacity limits apply per center. Book your physical desk and receive your hall ticket instantly.
+              This complete event is happening strictly offline at designated TNPSC offline venues. Book your physical desk and get your hall ticket.
             </p>
           </div>
         </div>
@@ -129,8 +129,8 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
             </div>
             <div>
               <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Timings</span>
-              <h4 className="text-base font-extrabold text-white">9:00 AM to 10:00 AM</h4>
-              <p className="text-xs text-[#BDBDBD] mt-0.5">Followed by Expert Seminar &amp; Cash Prize Meet</p>
+              <h4 className="text-base font-extrabold text-white">9:00 AM to 1:00 PM</h4>
+              <p className="text-xs text-[#BDBDBD] mt-0.5">Full Model Examination Duration</p>
             </div>
           </div>
 
@@ -140,9 +140,9 @@ export const Section1And2Hero: React.FC<Props> = ({ onOpenRegister }) => {
               <MapPin className="w-6 h-6 text-[#F5B94C]" />
             </div>
             <div>
-              <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Main Venue</span>
-              <h4 className="text-base font-extrabold text-white">Ambedkar Academy Hall</h4>
-              <p className="text-xs text-[#BDBDBD] mt-0.5">T. Nagar, Chennai • District Centers across TN</p>
+              <span className="text-[11px] font-bold text-[#F5B94C] uppercase tracking-wider block mb-0.5">Exam Venue Area</span>
+              <h4 className="text-base font-extrabold text-white">Ambedkar Academy Main Hall</h4>
+              <p className="text-xs text-[#BDBDBD] mt-0.5">T. Nagar, Chennai • District Examination Centers across TN</p>
             </div>
           </div>
 

@@ -3,6 +3,7 @@ import { Section1And2Hero } from './components/Section1And2Hero';
 import { ProblemSection } from './components/ProblemSection';
 import { SolutionSection } from './components/SolutionSection';
 import { OfferDetailsSection } from './components/OfferDetailsSection';
+import { ChooseProgrammeSection } from './components/ChooseProgrammeSection';
 import { CashPrizeSection } from './components/CashPrizeSection';
 import { RecognitionMattersSection } from './components/RecognitionMattersSection';
 import { MeetYourSpeakersSection } from './components/MeetYourSpeakersSection';
@@ -42,6 +43,9 @@ export default function App() {
 
       {/* SECTION 5: WHAT YOU GET */}
       <OfferDetailsSection onOpenRegister={handleOpenRegister} />
+
+      {/* SECTION 5.5: CHOOSE YOUR PROGRAMME (OFFLINE, ONLINE, TEST SERIES) */}
+      <ChooseProgrammeSection onOpenRegister={handleOpenRegister} />
 
       {/* SECTION 6: CASH PRIZE MODEL EXAM WITH 1 LAKH GRAPHIC */}
       <CashPrizeSection onOpenRegister={handleOpenRegister} />
