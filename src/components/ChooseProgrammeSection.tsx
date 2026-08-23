@@ -10,8 +10,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "OFFLINE PROGRAMME",
       badge: "In-Person Classroom",
-      regAmount: "Register ₹100",
+      regAmount: "Registration: ₹499",
       price: "₹2,000 × 6 Weeks",
+      totalCalc: "Total Programme Value: ₹12,499 (₹499 Reg + ₹12,000)",
       desc: "Classroom preparation + guidance + tests",
       features: ["Physical classroom desk in Chennai / Centers", "Direct interaction with senior faculty", "Printed model test papers & OMR evaluation", "Access to Cash Prize Model Exam"],
       popular: true,
@@ -19,8 +20,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "ONLINE PROGRAMME",
       badge: "Live & Recorded",
-      regAmount: "Register ₹100",
+      regAmount: "Registration: ₹499",
       price: "₹1,000 × 6 Weeks",
+      totalCalc: "Total Programme Value: ₹6,499 (₹499 Reg + ₹6,000)",
       desc: "Online preparation + guidance + tests",
       features: ["Live interactive masterclasses", "Recorded video library access", "Digital test series & feedback", "Access to Cash Prize Model Exam"],
       popular: false,
@@ -28,8 +30,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
     {
       title: "TEST SERIES",
       badge: "Exam Practice",
-      regAmount: "Register ₹100",
+      regAmount: "Registration: ₹499",
       price: "₹500 × 4 Weeks",
+      totalCalc: "Total Programme Value: ₹2,499 (₹499 Reg + ₹2,000)",
       desc: "Model tests + performance analysis",
       features: ["Curated TNPSC mock tests", "Detailed performance reports", "Weak area analysis dashboard", "Ranking among state aspirants"],
       popular: false,
@@ -48,7 +51,7 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
           CHOOSE YOUR <span className="gold-gradient-text">PROGRAMME</span>
         </h2>
         <p className="text-xs sm:text-base text-[#BDBDBD] max-w-xl mx-auto">
-          Select the mode that best fits your schedule and start your structured preparation today.
+          Standard registration is ₹499. Select your offline or online programme and view total calculated costs.
         </p>
       </div>
 
@@ -74,7 +77,7 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
                 <span className="text-[11px] font-bold text-[#F5B94C] bg-[#F5B94C]/10 px-3 py-1 rounded-full border border-[#F5B94C]/30 uppercase">
                   {prog.badge}
                 </span>
-                <span className="text-xs font-mono font-bold text-white bg-white/5 px-2.5 py-1 rounded">
+                <span className="text-xs font-mono font-bold text-[#FFD66E] bg-[#FFD66E]/10 border border-[#FFD66E]/30 px-2.5 py-1 rounded">
                   {prog.regAmount}
                 </span>
               </div>
@@ -87,6 +90,9 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
                 <span className="text-2xl sm:text-3xl font-black gold-gradient-text font-display block mb-1">
                   {prog.price}
                 </span>
+                <p className="text-xs text-[#FFD66E] font-bold mb-1">
+                  {prog.totalCalc}
+                </p>
                 <p className="text-xs text-[#BDBDBD]">
                   {prog.desc}
                 </p>
@@ -110,7 +116,7 @@ export const ChooseProgrammeSection: React.FC<Props> = ({ onOpenRegister }) => {
                   : 'bg-[#222222] hover:bg-[#2A2A2A] text-white border border-[#F5B94C]/40 hover:border-[#F5B94C]'
               }`}
             >
-              <span>JOIN {prog.title.split(' ')[0]}</span>
+              <span>JOIN {prog.title.split(' ')[0]} — ₹499</span>
               <ArrowRight className="w-4 h-4" />
             </button>
 
