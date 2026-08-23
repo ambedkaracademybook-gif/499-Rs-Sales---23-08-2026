@@ -60,30 +60,6 @@ export const TrustSocialProofSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Testimonial Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-        {testimonials.map((item, idx) => (
-          <div
-            key={idx}
-            className="p-6 rounded-2xl bg-[#1A1A1A] border border-[#F5B94C]/20 flex flex-col justify-between"
-          >
-            <div>
-              <Quote className="w-6 h-6 text-[#F5B94C]/40 mb-3" />
-              <p className="text-sm sm:text-base text-white font-medium italic leading-relaxed mb-6">
-                "{item.quote}"
-              </p>
-            </div>
-            <div className="pt-4 border-t border-white/10 flex items-center justify-between">
-              <span className="text-xs sm:text-sm font-bold text-[#FFD66E]">
-                — {item.author}
-              </span>
-              <span className="text-[11px] text-[#BDBDBD] px-2 py-0.5 rounded bg-[#111111] border border-white/10">
-                {item.tag}
-              </span>
-            </div>
-          </div>
-        ))}
-      </div>
 
       <p className="text-center text-xs text-[#BDBDBD]/70">
         Verified participant reviews • Published with student consent
